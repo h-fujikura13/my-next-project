@@ -5,6 +5,8 @@ import { TOP_NEWS_LIMIT } from "@/app/_constants";
 import NewsList from "@/app/_components/NewsList";
 import ButtonLink from "@/app/_components/ButtonLink";
 
+export const revalidate = 60;
+
 export default async function Home() {
   // Javascriptの定数や式などを書くことができる
   const name = "世界";
